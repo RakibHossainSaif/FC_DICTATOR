@@ -1,0 +1,131 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Playfair Display', serif;*/
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	border: 5px solid #dddddd;
+	width: 1400px;
+}
+/*header start*/
+header{
+	background-color: #020202;
+}
+.wrapper{
+	width: 90%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.icon{
+	width: 7%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 30px 25px 0px 25px;
+	transition: .3s;
+	border-radius: 7%;
+}
+.menu ul li a:hover{
+	color: black;
+	background-color: white;
+	opacity: 45%;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	min-width: 610px;
+	min-height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+.wrapper2{
+	width: 40%;
+}
+.b_content{
+	width: 25%;
+	background-color: #35487C;
+	/*background-color: #000000;*/
+    opacity: 45%;
+    margin: -20px 0px;
+}
+.b_content h1{
+	font-weight: 500;
+	color: #F1F2F3;
+	padding: 10px 25px;
+}
+.b_content p{
+	font-weight: 400;
+	color: #F1F2F3;
+	padding-left: 28px;
+}
+/*banner end*/
+/*team start*/
+.team{
+	background-color: #111111;
+	padding: 6% 0;
+}
+.t_head{
+	text-align: center;
+}
+.h1_light{
+	color: #ffffff;
+}
+.h1_bold{
+	color: #ffffff;
+}
+.proin{
+	color: #ffffff;
+}
+.circels{
+	width: 21%;
+	float: left;
+	padding: 6%;
+}
+.round{
+	width: 220px;
+	height: 220px;
+	border: 5px solid #ffffff;
+	border-radius: 25%;
+	text-align: center;
+}
+.round img{
+	width: 220px;
+	height: 220px;
+	border-radius: 25%;
+}
+.r_text{
+	text-align: center;
+}
+.h2{
+	font-family: BrandonGrotesque-Bold;
+	font-weight: 700;
+	font-size: 18px;
+	color: #ffffff;
+}
+.h3{
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffffff;
+}
+/*team end*/
